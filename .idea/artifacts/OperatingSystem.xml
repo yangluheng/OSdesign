@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OperatingSystem">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="OperatingSystem.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ProcessScheduling" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="library" level="project" name="jstl" />
+      <element id="library" level="project" name="standard" />
+      <element id="javaee-facet-resources" facet="ProcessScheduling/web/Web" />
+    </root>
+  </artifact>
+</component>
